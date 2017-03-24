@@ -13,5 +13,5 @@ function iterate(callBack){
 }
 
 function doToArray (array, callback){
-  callback(array.forEach)
+  array.forEach(callback)
 }
